@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- Header Details-->
+    <header class="header-container">
+        <div class="left-section">
+            <span class="home-icon"><ion-icon name="home-outline"></ion-icon></span>
+        </div>
+        <div class="middle-section">
+            <div class="search-bar">
+                <input class="search-input" type="text" placeholder="Search">
+                <button class="search-button">
+                <span class="search-icon"><ion-icon name="search-outline"></ion-icon></span>
+                </button>
+            </div>   
+        </div>
+        <div class="right-section">            
+            <div class="cart">
+                <span class="cart-icon"><ion-icon name="cart-outline"></ion-icon></span>
+                <label id="cartNotifcount" class="cart-notification-tooltip">0</label>
+            </div>
+            <div class="bicycle"><span class="bicycle-icon"><ion-icon name="bicycle-outline"></ion-icon></span></div>
+            <div class="wallet"><span class="wallet-icon"><ion-icon name="wallet-outline"></ion-icon></span></div>
+            <div class="bag"><span class="bag-icon"><ion-icon name="bag-outline"></ion-icon></span></div>
+            <span class="hamburger-menu"><ion-icon name="menu-outline"></ion-icon></span>
+        </div>
+    </header>
+
+<!--SideBar details-->
+<nav class="sidebar-nav">
+    <div class="icons-basket">
+        <div class="close-icon-sidebar">
+            <span class="js-close-icon"><ion-icon name="close-outline"></ion-icon></span>
+        </div>
+        <div class="cart-icon-sidebar">
+            <span><ion-icon name="cart-outline"></ion-icon></span>
+            <label for="">Cart Details</label>  
+        </div>
+        <div class="bicycle-icon-sidebar">
+            <span><ion-icon name="bicycle-outline"></ion-icon></span>
+            <label for="">Delivery Status</label>
+        </div>
+        <div class="wallet-icon-sidebar">
+            <span><ion-icon name="wallet-outline"></ion-icon></span>
+            <label for="">Wallet</label></div>
+        <div class="bag-icon-sidebar">
+            <span><ion-icon name="bag-outline"></ion-icon></span>
+            <label for="">Shopping Bag</label>
+        </div>
+    </div>
+    <div class="profile-basket">
+        <div class="profile-picture">
+           <img src="images/matchstick.jpg" alt=""> 
+        </div>
+        <div class="user-content">
+            <div class="user-name"><p>Austine Hazande Opal</p></div>
+            <div class="user-email"><p>hazandeaustine@gmail.com</p></div>
+        </div>
+    </div>
+</nav>
+
+
+    <!--Body Details-->
+    <div class="content-container">
+        <div class="detail-card">
+            <div class="image-container">
+                <img src="images/pray.jpg" alt="">
+            </div>
+            <div class="buy-details">
+                <button>Buy Now</button>
+                <span onclick="countCalculator();" class="client-cart"><ion-icon name="cart-outline"></ion-icon></span>
+            </div>
+            <div class="discount-tag"> 20% OFF</div>
+        </div>
+        <div class="detail-card">
+            <div class="image-container">
+                <img src="images/pray.jpg" alt="">
+            </div>
+            <div class="buy-details">
+                <button>Buy Now</button>
+                <span onclick="countCalculator();" class="client-cart"><ion-icon name="cart-outline"></ion-icon></span>
+            </div>
+            <div class="discount-tag"> 20% OFF</div>
+        </div>
+        <div class="detail-card">
+            <div class="image-container">
+                <img src="images/pray.jpg" alt="">
+            </div>
+            <div class="buy-details">
+                <button>Buy Now</button>
+                <span onclick="countCalculator();" class="client-cart"><ion-icon name="cart-outline"></ion-icon></span>
+            </div>
+            <div class="discount-tag"> 20% OFF</div>
+        </div>
+        <div class="detail-card">
+            <div class="image-container">
+                <img src="images/pray.jpg" alt="">
+            </div>
+            <div class="buy-details">
+                <button>Buy Now</button>
+                <span onclick="countCalculator();" class="client-cart"><ion-icon name="cart-outline"></ion-icon></span>
+            </div>
+            <div class="discount-tag"> 20% OFF</div>
+        </div>
+        <div class="detail-card">
+            <div class="image-container">
+                <img src="images/pray.jpg" alt="">
+            </div>
+            <div class="buy-details">
+                <button>Buy Now</button>
+                <span onclick="countCalculator();" class="client-cart"><ion-icon name="cart-outline"></ion-icon></span>
+            </div>
+            <div class="discount-tag"> 20% OFF</div>
+        </div>
+        <div class="detail-card">
+            <div class="image-container">
+                <img src="images/pray.jpg" alt="">
+            </div>
+            <div class="buy-details">
+                <button>Buy Now</button>
+                <span onclick="countCalculator();" class="client-cart"><ion-icon name="cart-outline"></ion-icon></span>
+            </div>
+            <div class="discount-tag"> 20% OFF</div>
+        </div>
+        <div class="detail-card">
+            <div class="image-container">
+                <img src="images/pray.jpg" alt="">
+            </div>
+            <div class="buy-details">
+                <button>Buy Now</button>
+                <span onclick="countCalculator();" class="client-cart"><ion-icon name="cart-outline"></ion-icon></span>
+            </div>
+            <div class="discount-tag"> 20% OFF</div>
+        </div>
+        <div class="detail-card">
+            <div class="image-container">
+                <img src="images/pray.jpg" alt="">
+            </div>
+            <div class="buy-details">
+                <button>Buy Now</button>
+                <span onclick="countCalculator();" class="client-cart"><ion-icon name="cart-outline"></ion-icon></span>
+            </div>
+            <div class="discount-tag"> 20% OFF</div>
+        </div>
+        <div class="detail-card">
+            <div class="image-container">
+                <img src="images/pray.jpg" alt="">
+            </div>
+            <div class="buy-details">
+                <button>Buy Now</button>
+                <span onclick="countCalculator();" class="client-cart"><ion-icon name="cart-outline"></ion-icon></span>
+            </div>
+            <div class="discount-tag"> 20% OFF</div>
+        </div>
+        <div class="detail-card">
+            <div class="image-container">
+                <img src="images/pray.jpg" alt="">
+            </div>
+            <div class="buy-details">
+                <button>Buy Now</button>
+                <span onclick="countCalculator();" class="client-cart"><ion-icon name="cart-outline"></ion-icon></span>
+            </div>
+            <div class="discount-tag"> 20% OFF</div>
+        </div>
+    </div>
+
+
+
+    <script src="sidebar.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
+
+
+
+
+
